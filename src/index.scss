@@ -1,0 +1,21 @@
+*{
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202020;
+    color: #fefefe;
+}
+
+a{
+    text-decoration: none;
+    color: #57f754;
+    
+    &:hover{
+        color: #2dae2b;
+        transition: all .2s ease;
+    }
+}
